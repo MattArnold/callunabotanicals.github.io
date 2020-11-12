@@ -12,6 +12,13 @@ h1, h2, h3, h4{
   font-weight: 700;
 }
 
+.main {
+  background-image: url("/assets/images/heatherflower.png");
+  background-size: 3rem;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
 .container {
   width: 40rem;
   margin: 0 auto;
