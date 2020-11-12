@@ -14,7 +14,7 @@ h1, h2, h3, h4{
 
 .main {
   background-image: url("/assets/images/heatherflower.png");
-  background-size: 3rem;
+  background-size: 10rem;
   background-position: left top;
   background-repeat: no-repeat;
 }
