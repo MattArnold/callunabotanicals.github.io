@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Calluna Botanicals</title>
+  <meta name="description" content="Heather Hall imparts herbal wisdom and herbal products." />	
+  <meta property="og:url"
+    content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:title" content="Calluna Botanicals" />
+  <meta property="og:description" content="Heather Hall imparts herbal wisdom and herbal products." />
+  <meta property="og:image" content="{{ site.url }}/assets/images/image.png" />
+  <link href="assets/css/main.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico"  | absolute_url }}" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+<body class="pages">
+{% include header.html %}
+<div class="main">
+<div class="container">
+{{ content }}
+</div>
+</div>
+<div class="footer">
+<p>&reg; Copyright 2020-{{ site.time | date: '%y' }} Heather Hall. All Rights Reserved</p>
+</div>
+</body>
+</html>
