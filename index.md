@@ -6,7 +6,7 @@ layout: main
 
 Heather Hall imparts herbal wisdom and herbal products
 
-[Book An Appointment](/)
+{% include contact.html %}
 
 ## Satisfied Clients
 

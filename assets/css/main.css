@@ -3,6 +3,7 @@
 
 body {
   background-image: url("/assets/images/background.png");
+  font-family: 'Crimson Text', serif;
 }
 
 h1, h2, h3, h4{
@@ -15,9 +16,17 @@ h1, h2, h3, h4{
   margin: 0 auto;
 }
 
+.contact {
+  font-size: large;
+  text-align: center;
+  font-weight: bold;
+  margin: 10rem;
+}
+
 .footer {
   position: fixed;
   bottom: 0;
+  width: 100%;
 }
 
 .footer p {
