@@ -2,10 +2,24 @@
 ---
 
 body {
-  background-image: url("assets/images/background.png");
+  background-image: url("/assets/images/background.png");
 }
 
-h1{
+h1, h2, h3, h4{
   font-family: 'Caveat', cursive;
   font-weight: 700;
+}
+
+.container {
+  width: 40rem;
+  margin: 0 auto;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.footer p {
+  text-align: center;
 }
