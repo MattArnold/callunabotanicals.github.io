@@ -2,7 +2,7 @@
 ---
 
 body {
-  background-image: url("/assets/images/background.png");
+  background-image: url("/assets/images/fabric.png");
   font-family: 'Crimson Text', serif;
 }
 
@@ -14,13 +14,17 @@ h1, h2, h3, h4{
 .container {
   width: 40rem;
   margin: 0 auto;
+  padding: 2rem;
+  background-image: url("/assets/images/papersheet.png");
+  background-size: contain;
+  background-position: center top;
 }
 
 .contact {
   font-size: large;
   text-align: center;
   font-weight: bold;
-  margin: 10rem;
+  margin: 5rem;
 }
 
 .footer {
