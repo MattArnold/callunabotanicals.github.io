@@ -4,7 +4,7 @@ layout: main
 ---
 # Calluna Botanicals
 
-Heather Hall imparts herbal wisdom and herbal products
+Welcome to exploring herbs with Heather Hall. Heather has been using and sharing herbs for over 20 years. Calluna Botanicals brings this practice to the next level, you! In addition to sharing herbs, Heather will share her knowledge and understanding of herbs. Heather raised her children using herbs and then helped her friends and family along the way. Heather took many classes over the years with Herbalist Jim McDonald and has completed his nine month Herbal Intensive course.
 
 {% include contact.html %}
 
