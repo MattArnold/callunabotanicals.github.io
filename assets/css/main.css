@@ -4,6 +4,14 @@
 body {
   background-image: url("/assets/images/fabric.png");
   font-family: 'Crimson Text', serif;
+}
+
+body.home {
+  background-image: url("/assets/images/field-of-heather-plants.jpg");
+  background-size: cover;
+}
+
+body:not(.home) {
   margin-top: -1rem;
 }
 
@@ -12,19 +20,62 @@ h1, h2, h3, h4{
   font-weight: 700;
 }
 
-.main {
+.pages .main {
   background-image: url("/assets/images/heatherflower.png");
   background-size: 10rem;
   background-position: left top;
   background-repeat: no-repeat;
 }
 
+.home .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+header nav {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.homebtn.navbtn {
+  font-size: 1.5rem;
+}
+
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
 .container {
   width: 40rem;
   margin: 0 auto;
-  margin-top: -2rem;
+  margin-top: 3rem;
   margin-bottom: 12rem;
-  padding: 2rem 4rem 7rem 4rem;
+  padding: 4rem 4rem 7rem 4rem;
   background-image: url("/assets/images/papersheet.png");
   background-size: cover;
   background-position: center bottom;
@@ -36,12 +87,24 @@ h1, h2, h3, h4{
   text-align: center;
   font-weight: bold;
   margin: 5rem;
+  background-color: #fff;
+  padding: 1rem;
+  width: max-content;
+  height: max-content;
+  margin: 0 auto;
 }
 
-.footer {
+footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+footer:not(.subpagefooter) {
+  background-color: #fff;
+}
+
+footer.subpagefooter {
   padding: 0 0 6rem 0;
   background-image: url(/assets/images/papersheet.png);
   background-size: cover;
@@ -51,8 +114,11 @@ h1, h2, h3, h4{
   -moz-transform: rotate(180deg);
 }
 
-.footer p {
+footer p {
   text-align: center;
+}
+
+footer.subpagefooter p {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
 }

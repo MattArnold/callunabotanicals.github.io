@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>Calluna Vitality</title>
+  <title>{{ site.title }}</title>
   <meta name="description" content="Heather Hall imparts herbal wisdom and herbal products." />	
   <meta property="og:url"
     content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-  <meta property="og:title" content="Calluna Vitality" />
+  <meta property="og:title" content={{ site.title }} />
   <meta property="og:description" content="Heather Hall imparts herbal wisdom and herbal products." />
   <meta property="og:image" content="{{ site.url }}/assets/images/heatherflower.png" />
   <link href="assets/css/main.css" rel="stylesheet" type="text/css" media="all" />
@@ -16,7 +16,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
-<body class="pages">
+<body class="home">
 <header>
 <nav>
   <ul>
@@ -27,18 +27,16 @@
     </li>
     {% assign navorder = "Welcome!About!Satisfied Clients!Resources" | split: "!" %}
     {% for n in navorder %}
-    {% if n != page.title %}
     <li class="navbtn">
       <a href={{ site.url }}{{ n | slugify }}>
         {{ n }}
       </a>
     </li>
-    {% endif %}
     {% endfor %}
     {% for p in site.pages %}
     {% unless navorder contains p.title %}
     {% if p.title and p.title != "Home" %}
-      <li class="navbtn">
+    <li class="navbtn">
       <a href={{ site.url }}{{ p.title | slugify }}>
         {{ p.title }}
       </a>
@@ -50,11 +48,9 @@
 </nav>
 </header>
 <div class="main">
-<div class="container">
-{{ content }}
+  {{ content }}
 </div>
-</div>
-<footer class="subpagefooter">
+<footer>
 <p>&reg; Copyright 2020-{{ site.time | date: '%y' }} Heather Hall. All Rights Reserved</p>
 </footer>
 </body>
