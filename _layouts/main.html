@@ -21,7 +21,7 @@
 <nav>
   <ul>
     <li class="homebtn navbtn">
-      <a href={{ site.url }}>
+      <a href="/">
         Calluna Vitality
       </a>
     </li>
@@ -29,7 +29,7 @@
     {% for n in navorder %}
     {% if n != page.title %}
     <li class="navbtn">
-      <a href="{{ site.url }}/{{ n | slugify }}">
+      <a href="{{ n | slugify }}">
         {{ n }}
       </a>
     </li>
@@ -39,7 +39,7 @@
     {% unless navorder contains p.title %}
     {% if p.title and p.title != "Home" %}
       <li class="navbtn">
-      <a href="{{ site.url }}/{{ p.title | slugify }}">
+      <a href="{{ p.title | slugify }}">
         {{ p.title }}
       </a>
     </li>
