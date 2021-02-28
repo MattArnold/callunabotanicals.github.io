@@ -34,6 +34,13 @@ h1, h2, h3, h4{
   height: 100vh;
 }
 
+.main .title-box {
+  font-size: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 header {
   position: fixed;
   top: 0;
