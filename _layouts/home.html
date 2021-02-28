@@ -28,7 +28,7 @@
     {% assign navorder = "Welcome!About!Satisfied Clients!Resources" | split: "!" %}
     {% for n in navorder %}
     <li class="navbtn">
-      <a href={{ site.url }}{{ n | slugify }}>
+      <a href="{{ site.url }}/{{ n | slugify }}">
         {{ n }}
       </a>
     </li>
@@ -37,7 +37,7 @@
     {% unless navorder contains p.title %}
     {% if p.title and p.title != "Home" %}
     <li class="navbtn">
-      <a href={{ site.url }}{{ p.title | slugify }}>
+      <a href="{{ site.url }}/{{ p.title | slugify }}">
         {{ p.title }}
       </a>
     </li>
