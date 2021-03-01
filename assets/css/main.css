@@ -112,7 +112,7 @@ footer:not(.subpagefooter) {
 }
 
 footer.subpagefooter {
-  padding: 0 0 6rem 0;
+  padding: 0 0 8rem 0;
   background-image: url(/assets/images/papersheet.png);
   background-size: cover;
   background-repeat: no-repeat;
