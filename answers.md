@@ -1,9 +1,9 @@
 ---
-title: "About"
+title: "Answers"
 layout: main
 ---
 
-# About
+# Answers
 
 ## What is an herb?
 
