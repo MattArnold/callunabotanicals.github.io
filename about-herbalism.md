@@ -1,9 +1,9 @@
 ---
-title: "Answers"
+title: "About Herbalism"
 layout: main
 ---
 
-# Answers
+# About Herbalism
 
 ## What is an herb?
 
