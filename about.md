@@ -15,7 +15,7 @@ Someone who uses plants for healing and nourishment and dedicates their lives to
 
 ## What is the difference between an herb and a drug?
 
-There are several differences. One of the main differences is that a firm often a pharmaceutical has one active ingredient. An herb can have an array of direct action ingredients and simple nourishment. Herbs are also used on a wider scale of potency. Some are used very lightly. Some are so potent they need to be administered by a seasoned herbalist.
+There are several differences. One of the main differences is that a pharmaceutical usually has one active ingredient. An herb can have an array of direct action ingredients and simple nourishment. Herbs are also used on a wider scale of potency. Some are used very lightly. Some are so potent they need to be administered by a seasoned herbalist.
 
 ## What does an herbal consultation entail?
 
