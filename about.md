@@ -11,7 +11,7 @@ Any plant with leaves, seeds, or flowers used for flavoring, food, medicine, or 
 
 ## What is an herbalist?
 
-Someone who uses plans for healing and nourishment and dedicates their lives to working with medicinal plants.
+Someone who uses plants for healing and nourishment and dedicates their lives to working with medicinal plants.
 
 ## What is the difference between an herb and a drug?
 
