@@ -24,7 +24,7 @@
         {{ site.title }}
       </a>
     </li>
-    {% assign navorder = "Welcome!About Herbalism!Satisfied Clients!Resources" | split: "!" %}
+    {% assign navorder = "Welcome!About Herbalism!Satisfied Clients!Book A Consultation" | split: "!" %}
     {% for n in navorder %}
     {% if n != page.title %}
     <li class="navbtn">
@@ -45,11 +45,6 @@
     {% endif %}
     {% endunless %}
     {% endfor %}
-    <li class="navbtn">
-      <a href="mailto:callunavitality@gmail.com?subject=Book A Consultation">
-        Book A Consultation
-      </a>
-    </li>
   </ul>
 </nav>
 </header>
