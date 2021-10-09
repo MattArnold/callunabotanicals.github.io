@@ -37,8 +37,16 @@ h1, h2, h3, h4{
 .main .title-box {
   font-size: 4rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
+}
+
+.main .photo-box {
+  width: 20vh;
+  height: 20vh;
+  background-image: url("/assets/images/heather-hall.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -128,4 +136,18 @@ footer p {
 footer.subpagefooter p {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
+}
+
+@media screen 
+  and (min-device-width: 500px) {
+
+    .main .title-box {
+      flex-direction: row;
+    }
+
+    .main .photo-box {
+      width: 20vw;
+      height: 20vw;
+    }
+
 }
